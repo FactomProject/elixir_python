@@ -9,7 +9,7 @@ RUN apt-get update -y && \
         build-essential \
         python-dev \
         python-setuptools \
-        python-pip &&
+        python-pip && \
     pip install --upgrade awscli \
         boto3 \
         --ignore-installed six && \
